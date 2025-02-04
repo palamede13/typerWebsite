@@ -1,0 +1,70 @@
+html, body {
+	height: 100%;
+    margin: 0;
+    padding: 0;
+	font-family: 'Brush Script MT', cursive;
+	text-align: center;
+	color : #FF8C00;
+	background-color: white;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* Assure que la page prend toute la hauteur de l'écran */
+}
+main {
+    flex-grow: 1; /* Permet au contenu de prendre toute la hauteur disponible */
+}
+
+h1 {
+	font-size: 4.5em;
+}
+
+.block {
+	color : white;
+	background-color: #FF8C00;
+	border-radius: 20px;
+	padding : 30px;
+	margin-left : 30%;
+	margin-right : 30%;
+}
+
+.box {
+	background-color: white;
+	font-weight : bold;
+	color : #FF8C00;
+	font-size: 2.5em;
+	border-radius: 20px;
+	padding : 15px;
+	/* margin-left : 10%;
+	margin-right : 10%; */
+}
+
+.inputZone {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.input {
+	width: 80%;
+}
+
+.cta {
+	width: 20%;
+	height : 30px; 
+	color : #FF8C00;
+
+	border-radius: 10px;
+	margin-left: 10px;
+	border: none;
+}
+
+footer {
+	background-color: #FF8C00;
+	color : white;
+	text-align: center;
+    padding: 10px;
+
+}
